@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+[alt~=EECU] {
+    height: 200px;
+    width: 500px;
+}
+
+header {
+    width: 100vw;
+    background-color: #0054a4;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+header .logo {
+    width: 200px;
+}
+
+header nav {
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 20px;
+}
+
+nav ul a:hover {
+    background-color: dodgerblue;
+}
+
+.item1 {
+    background-color: #3DB893;
+    height: 1180px;
+    margin-top: -30px;
+}
+
+.item1 h1 {
+    font-size: 60px;
+    margin-left: 60px;
+    width: 27%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.item1 h2 {
+    margin-left: 30px;
+    margin-top: -10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.item1 ol {
+    color: white;
+    font-size: 35px;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.item1 li {
+    margin-bottom: 10px;
+}
+
+[alt~=different] {
+    width: 25%;
+    margin-left: 1300px;
+    margin-top: -480px;
+}
+
+[alt~=checks] {
+    width: 60%;
+    margin-left: 360px;
+}
+
+.item2 {
+    background-color: #3DB893;
+    height: 300px;
+    margin-top: -16px;
+    color: white;
+}
+
+.item2 h1 {
+    font-size: 40px;
+}
+
+.item2 h2 {
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10 {
+    background-color: lightblue;
+    height: 200px;
+}

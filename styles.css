@@ -119,11 +119,10 @@ nav ul a:hover {
 .box6 {
     background-color: white;
     width: 70%;
-    height: 1400px;
+    height: 1000px;
     margin-left: 300px;
     text-align: center;
     font-size: 30px;
-    border: 3px solid black;
 }
 
 .box6 h1 {
@@ -138,16 +137,6 @@ nav ul a:hover {
     padding: 10px;
     border-radius: 5px;
     font-size: 24px;
-}
-.box6 h4 {
-    font-size: 40px;
-}
-
-.box6 h5{
-    margin-left: -630px;
-    font-size: 33px;
-    margin-top: -50px;
-    color: darkred;
 }
 
 .other {
@@ -225,8 +214,103 @@ hr {
     background-color: black;
 }
 
-.box11,
 .box12 {
-    background-color: lightblue;
-    height: 100px;
+    background-color: #8DBBFF;
+    height: 350px;
+}
+
+input[type="gross"],
+input[type="deductions"],
+input[type="net"] {
+    float: left;
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 27%;
+    margin-bottom: 10px;
+    display: flex;
+    background-color: #8DBBFF;
+}
+
+.box11 {
+    background-color: white;
+    text-align: center;
+    height: 350px;
+}
+
+.box11 h2 {
+    font-size: 45px;
+}
+
+.box11 h3 {
+    font-size: 30px;
+}
+
+.box11 h4 {
+    font-size: 30px;
+}
+
+.box11 h5 {
+    font-size: 25px;
+    margin-right: 470px;
+    margin-top: -85px;
+    color: darkred;
+}
+
+.box11 h4 {
+    border: 3px solid black;
+    padding: 50px;
+}
+
+.box11 p {
+    font-size: 23px;
+    color: darkred;
+    font-weight: bolder;
+    margin-left: 525px;
+    margin-top: -70px;
+}
+
+.box6 h3 {
+    margin-top: 90px;
+    color: darkred;
+    width: 20%;
+    margin-left: 100px;
+}
+
+.box6 h4 {
+    color: darkred;
+    margin-top: -115px;
+    font-size: 40px;
+    margin-left: -20px;
+}
+
+.box6 h5 {
+    color: darkred;
+    font-size: 40px;
+    margin-left: 960px;
+    margin-top: -105px;
+    width: 30%;
+    flex-direction: row;
+    display: flex;
+}
+
+.box6 p {
+    margin-left: 850px;
+    margin-top: -65px;
+}
+.box6 h2 {
+    margin-left: -470px;
+    margin-top: -112px;
+}
+
+.box6 h6 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: -420px;
+    margin-top: -80px;
+}
+
+[alt~=eecu-footer] {
+    width: 20%;
+    margin-left: 750px;
+    margin-top: 90px;
 }

@@ -228,13 +228,12 @@ input[type="net"] {
     width: 27%;
     margin-bottom: 10px;
     display: flex;
-    background-color: #8DBBFF;
 }
 
 .box11 {
     background-color: white;
     text-align: center;
-    height: 350px;
+    height: 200px;
 }
 
 .box11 h2 {
@@ -243,30 +242,6 @@ input[type="net"] {
 
 .box11 h3 {
     font-size: 30px;
-}
-
-.box11 h4 {
-    font-size: 30px;
-}
-
-.box11 h5 {
-    font-size: 25px;
-    margin-right: 470px;
-    margin-top: -85px;
-    color: darkred;
-}
-
-.box11 h4 {
-    border: 3px solid black;
-    padding: 50px;
-}
-
-.box11 p {
-    font-size: 23px;
-    color: darkred;
-    font-weight: bolder;
-    margin-left: 525px;
-    margin-top: -70px;
 }
 
 .box6 h3 {
@@ -313,4 +288,53 @@ input[type="net"] {
     width: 20%;
     margin-left: 750px;
     margin-top: 90px;
+}
+
+.box11 form {
+    width: 40%;
+    background-color: lightblue;
+}
+
+.box13 {
+    width: 20%;
+    margin-left: 500px;
+}
+
+input[type="ran"] {
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.box14 {
+    width: 20%;
+    margin-left: 1100px;
+    margin-top: -68px;
+    margin-bottom: 30px;
+}
+
+input[type="known"] {
+    padding: 17px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.box15 p {
+    font-size: 40px;
+    text-align: center;
+    margin-top: -90px;
+}
+
+.box16 p {
+    color: darkred;
+    font-size: 30px;
+    margin-left: 630px;
+    margin-top: -20px;
+}
+
+.box16 h3 {
+    color: darkred;
+    font-size: 25px;
+    margin-left: 1135px;
+    margin-top: -60px;
 }

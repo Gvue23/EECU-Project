@@ -88,23 +88,47 @@ nav ul a:hover {
 
 .item2 {
     background-color: #3DB893;
-    height: 300px;
-    margin-top: -16px;
+    height: 410px;
+    margin-top: -37px;
     color: white;
 }
 
 .item2 h1 {
-    font-size: 40px;
+    font-size: 45px;
+    margin-left: 300px;
 }
 
 .item2 h2 {
-    font-size: 30px;
+    font-size: 35px;
     margin-left: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 300px;
 }
 
+.item2 h3 {
+    font-size: 40px;
+    margin-left: 800px;
+    margin-top: -150px;
+}
 
-.item3,
+.item3 {
+    background-color: white;
+}
+
+table, th, td {
+    border:1px solid black;
+    height: 70px;
+    font-size: 25px;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(203, 237, 237, 0.4);
+}
+  
+th:nth-child(even),td:nth-child(even) {
+    background-color: rgba(211, 233, 233, 0.4);
+}
+
 .item4,
 .item5,
 .item6,

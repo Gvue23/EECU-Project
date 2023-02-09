@@ -113,6 +113,7 @@ nav ul a:hover {
 
 .item3 {
     background-color: white;
+    margin-top: 30px;
 }
 
 table, th, td {
@@ -138,4 +139,15 @@ th:nth-child(even),td:nth-child(even) {
 .item10 {
     background-color: lightblue;
     height: 200px;
+}
+
+.item4 {
+    background-color: #8DBBFF;
+    height: 350px;
+}
+
+[alt~=eecu-footer] {
+    width: 20%;
+    margin-left: 750px;
+    margin-top: 90px;
 }
